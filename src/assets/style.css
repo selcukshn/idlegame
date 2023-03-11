@@ -1,0 +1,29 @@
+#app {
+    height: 100vh;
+}
+
+.cobblestone {
+    cursor: pointer;
+    position: relative;
+}
+
+.upgrade-item {
+    cursor: pointer;
+}
+
+.collection-progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1%;
+    background-color: gray;
+}
+
+.cobblestone img {
+    transition: all 0.1s;
+}
+
+.cobblestone:active img {
+    scale: 0.95;
+}
